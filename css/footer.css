@@ -2,15 +2,21 @@
     min-height: 384px;
     width: 1366px;
     margin: 0 auto;
-/*  Позиционирование подвала относительно низа общего контейнера.  */
+    /*  Позиционирование подвала относительно низа общего контейнера.  */
     position: absolute;
     bottom: 0;
     background-color: rgb(247, 247, 247);
 }
+
+.footer a:focus {
+    outline: none; /* фокусом ссылок управляем ниже, если он нужен */
+}
+
 .footer-space-reservation-on-container {
     display: table;
     content: "";
-    min-height: 384px;
+    min-height: 384px; /* NOTE min-height Не работает с Firefox */
+    height: 384px; 
 }
 
 .footer-line-1 {
@@ -95,6 +101,10 @@
     padding-left: 22px;
 }
 
+.footer-touch-eMailbox-field:focus {
+    outline: none;
+}
+
 .footer-touch-eMailbox-icon {
     float: right;
     display: inline-block;
@@ -109,6 +119,7 @@
 
 .footer-copyright {
     float: none;
+    display: block;
 }
 
 .footer-copyright-copy,
@@ -120,6 +131,7 @@
     font-size: 11px;
     line-height: 26px;
     color: #6c6c6c;
+    padding-top: 5px;
 }
 
 .footer-copyright-copy {
@@ -137,4 +149,10 @@
 
 .footer-copyright-icon td {
     width: 34px;
+    vertical-align: middle;
+}
+
+.footer-copyright-icon img {
+    width: 28px;
+    height: 28px;
 }

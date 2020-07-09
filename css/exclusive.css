@@ -1,5 +1,6 @@
 .exclusive {
     display: flex;
+    height: 683px;
     min-height: 683px;
     flex-flow: row nowrap;
     justify-content: space-between;

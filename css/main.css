@@ -46,6 +46,11 @@ body {
     height: 30px;
 }
 
+.header a:focus {
+    outline: none;
+    
+}
+
 .slider-text {
     margin-top: 283px;
 }
@@ -71,7 +76,9 @@ body {
 .menu-link:hover {
     color: #212121;
     border-bottom: 3px solid #212121;
-    ;
+}
+.menu-link:focus {
+    outline: none;
 }
 
 .menu-link-active {
