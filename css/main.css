@@ -138,7 +138,7 @@ body {
 }
 
 .slider-button:active {
-    box-shadow: 0 1px 1px 1px rgba(33, 33, 33, 0.35);
+    box-shadow: 0 0.5px 0.5px 0.5px rgba(10, 10, 10, 0.35);
     background-color: #f9f9f9;
 }
 
