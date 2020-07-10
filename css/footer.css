@@ -77,6 +77,11 @@
     padding-bottom: 5px;
 }
 
+.footer-contacts-text-upper-bold a {
+    text-decoration: inherit;
+    color: inherit;
+}
+
 .footer-touch-eMailbox {
     display: table-row;
     vertical-align: bottom;
@@ -98,7 +103,7 @@
     border: 0;
     vertical-align: middle;
     height: 48px;
-    padding-left: 22px;
+    padding-left: 20px;
 }
 
 .footer-touch-eMailbox-field:focus {

@@ -1,0 +1,66 @@
+.exclusive-2 {
+    display: flex;
+    height: 810px;
+    min-height: 810px;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    position: relative;
+    padding-top: 0px;
+    background-color: white;
+}
+
+.exclusive-2-group-1,
+.exclusive-2-group-2 {
+    display: flex;
+    flex: 0 0 570px;
+    height: 570px;
+    min-height: 570px;
+    margin-top: 120px;
+    outline: none;
+}
+.exclusive-2-group-2 {
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.exclusive-2-group-item-570 {
+    display: inline-flex;
+    flex: 0 0 570px;
+    align-content: center;
+    /*FIXME: Здесь не работает поперечное центрирование!*/
+    background-image: url(../img/exclusive-2-product-1-lg.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-color: #f5f5f5;
+}
+
+/*  NOTE: Блок (модуль) для содержимого. Его не удаётся вертикально центрировать относительно родительского контейнера! */
+.exclusive-2-text {
+    display: block;
+    width: 320px;
+    padding-top: 186px;
+    padding-left: 51px;
+}
+
+.exclusive-2-group-item-270 {
+    display: inline-flex;
+    flex: 0 0 270px;
+    width: 270px;
+    height: 270px;
+    background-color: #f5f5f5;
+}
+
+.exclusive-2-group-item-270.item-1 {
+    background-image: url(../img/exclusive-2-product-2-sm.jpg);
+}
+.exclusive-2-group-item-270.item-2 {
+    background-image: url(../img/exclusive-2-product-3-sm.jpg);
+}
+.exclusive-2-group-item-270.item-3 {
+    background-image: url(../img/exclusive-2-product-4-sm.jpg);
+}
+.exclusive-2-group-item-270.item-4 {
+    background-image: url(../img/exclusive-2-product-5-sm.jpg);
+}
+

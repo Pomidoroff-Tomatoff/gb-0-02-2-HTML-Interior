@@ -1,0 +1,43 @@
+.mobile-app {
+    display: block;
+    height: 516px;
+    background-color: #fcfcfc;
+    background-image: url(../img/mobile-app-back-img.jpg);
+}
+
+.mobile-app-text {
+    display: block;
+    width: 700px;
+    padding-top: 125px;
+}
+
+.color-gray {
+    color: #6c6c6c;
+}
+
+.mobile-app-text-info {
+    color: #6c6c6c;
+    font-size: 22px;
+    font-weight: 300;
+    width: 458px;
+    margin-top: 20px;
+    margin-bottom: 34px;
+    line-height: 24px;
+}
+
+.mobile-app-store {
+    display: inline-block;
+    height: 40px;
+    padding-right: 15px;
+    background-repeat: no-repeat;
+}
+
+.mobile-app-store.store-1 {
+    background-image: url(../svg/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg);
+    width: 120px;
+}
+
+.mobile-app-store.store-2 {
+    background-image: url(../svg/google-play-badge.svg);
+    width: 135px;
+}

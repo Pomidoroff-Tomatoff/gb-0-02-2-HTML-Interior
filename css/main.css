@@ -24,14 +24,17 @@ body {
     width: 1366px;
 }
 
-.slider {
+.slider, .slider-2 {
     display: block;
     height: 800px;
-    background-image: url(../img/slider-img.jpg);
+    background-image: url(../img/slider-1.jpg);
     background-repeat: no-repeat;
     background-position: top;
     /*для кружочков "пагинации" слайдера */
     position: relative;
+}
+.slider-2 {
+    background-image: url(../img/slider-2.jpg);
 }
 
 .clearfix:after {
@@ -71,6 +74,8 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     padding: 10px 13px;
+/*  NOTE: Чтобы меню не прыгало, хорошо бы увеличить расстояние между символами */    
+/*  letter-spacing: 1.4px; */
 }
 
 .menu-link:hover {
@@ -94,6 +99,9 @@ body {
     font-weight: 700;
     text-transform: uppercase;
 }
+.color-red {
+    color: #e53935;
+}
 
 .slider-h2 {
     color: #212121;
@@ -108,7 +116,7 @@ body {
     font-weight: 300;
     width: 458px;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     line-height: 24px;
 }
 
@@ -131,10 +139,11 @@ body {
 
 .slider-button:active {
     box-shadow: 0 1px 1px 1px rgba(33, 33, 33, 0.35);
+    background-color: #f9f9f9;
 }
 
 .slider-button:hover:after {
-    /* content: "  >"; */
+    /* FIXME: Нужен шрифт для символа ">"; */
     content: url(../svg/arrow-right.svg);
 }
 
